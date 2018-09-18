@@ -3,7 +3,7 @@ package visitor.shapes.imp;
 import visitor.visitors.Visitor;
 import visitor.shapes.Shape;
 
-public class Dot implements Shape{
+public class Dot implements Shape {
     public void draw() {
         // some drawing code
         System.out.println("Dot was drawn");
